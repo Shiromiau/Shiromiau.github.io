@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+#description {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#counter, #heart-counter {
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.shiro-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#shiro {
+    width: 300px;
+    height: auto;
+    cursor: url("patpat.png"), auto;
+    border-radius: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.heart {
+    position: absolute;
+    width: 30px;
+    transition: transform 0.1s;
+    z-index: 5;
+}
+
+/* Estilo del botón de reinicio */
+#reset-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#reset-button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#reset-button span {
+    margin-left: 8px;
+    font-size: 1em;
+    color: #666;
+    font-weight: bold;
+}
